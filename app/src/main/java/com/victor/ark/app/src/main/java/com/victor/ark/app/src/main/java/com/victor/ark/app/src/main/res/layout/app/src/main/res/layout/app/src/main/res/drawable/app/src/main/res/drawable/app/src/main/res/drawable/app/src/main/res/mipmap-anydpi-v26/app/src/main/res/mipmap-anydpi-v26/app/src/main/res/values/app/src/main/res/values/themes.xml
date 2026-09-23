@@ -1,7 +1,0 @@
-<resources>
-    <style name="Theme.Ark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">#1B4332</item>
-        <item name="colorPrimaryDark">#081C15</item>
-        <item name="colorAccent">#95D5B2</item>
-    </style>
-</resources>
