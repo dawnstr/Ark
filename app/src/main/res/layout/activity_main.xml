@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#081C15">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ark"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#95D5B2"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Control your phone with your voice"
+        android:textSize="14sp"
+        android:textColor="#B7E4C7"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:lineSpacingExtra="6dp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btn_mic_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="1. Grant microphone access" />
+
+    <Button
+        android:id="@+id/btn_overlay_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="2. Allow draw over apps" />
+
+    <Button
+        android:id="@+id/btn_accessibility_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="3. Enable accessibility service" />
+
+    <Button
+        android:id="@+id/btn_start_ark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#40916C"
+        android:textColor="#FFFFFF"
+        android:text="Start Ark" />
+
+</LinearLayout>
