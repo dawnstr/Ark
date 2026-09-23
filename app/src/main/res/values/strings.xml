@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ark</string>
+    <string name="accessibility_service_description">Ark uses this permission to let voice commands control your phone — going back, going home, scrolling, tapping, and opening apps.</string>
+</resources>
