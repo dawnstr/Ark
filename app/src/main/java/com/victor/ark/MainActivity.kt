@@ -54,5 +54,8 @@ class MainActivity : AppCompatActivity() {
         val overlayGranted = Settings.canDrawOverlays(this)
         val accessibilityGranted = isAccessibilityServiceEnabled()
 
-        statusText.text = buildString {
-            append(if (micGranted) "✅
+        val line1 = if (micGranted) "[OK] Microphone" else "[ ] Microphone"
+        val line2 = if (overlayGranted) "[OK] Draw over apps" else "[ ] Draw over apps"
+        val line3 = if (accessibilityGranted) "[OK] Accessibility service" else "[ ] Accessibility service"
+        statusText.text = line1 + "\n" + line2 + "\n" + line3
+    }
